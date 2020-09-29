@@ -1,5 +1,73 @@
-head{
-    font-family: sans-serif;font-size:large;color: hotpink;
+.container {
+    align-items: center;
     justify-content: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+    width: 800px;
 }
-.div
+.BLACKPINK1 {
+    font-family: sans-serif;font-size:large;color: hotpink;
+    text-align: center;
+}body {
+    background-image: url("coachella.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BP1 {
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    height: auto;
+    justify-content: center;
+    margin : 0 auto;
+    max-resolution: top 100px;
+    text-align: center;
+}
+.BP1 .jennie{
+    font-family: Impact;font-size: medium;color: lightcoral;
+    width: 300px;
+    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.BP1 .jisoo {
+    margin: 30px;
+    font-family: Impact;font-size: medium;color: lightcoral;
+    width: 300px;
+    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.BP1 .Lalisa {
+    font-family: Impact;font-size: medium;color: lightcoral;
+    margin: 300px;
+    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.BP1 .Rosie {
+    font-family: Impact;font-size: medium;color: lightcoral;
+}
+.p1 {
+    color: lightsalmon;
+}
+.p2 {
+    color: limegreen;
+}
+.p3 {
+    color: lightblue;
+}
+.p4 {
+    color: mediumpurple;
+}
+
+a:link {
+    color: orangered;
+}
+
+a:visited {
+    color: pink;
+}
